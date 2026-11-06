@@ -37,6 +37,8 @@ Nome do app: TIME TO FLOURISH. O logo completo fornecido é usado no centro da e
 
 O login é simbólico e aceita um nome e qualquer e-mail válido, conforme o briefing. Antes de restringir acesso a compradores, integre `verifyPurchase` a uma API que faça a validação no servidor. Nunca coloque chaves de pagamento no frontend. Uma aplicação estática não protege o conteúdo baixado, o temporizador nem um link público de PDF.
 
+No Journal, escreva e toque em Add note. Cada anotação aparece abaixo como Note 1, Note 2 etc., separada por dia e usuário, sem limite de quantidade definido pelo app. O campo é limpo após salvar; um rascunho em andamento também fica salvo no dispositivo. Textos antigos do diário são preservados como a primeira anotação de cada dia.
+
 Dados ficam no localStorage, por e-mail e navegador: nome, progresso, diário, primeiro acesso e boas-vindas. Sair remove apenas a sessão. Um novo dispositivo tem seus próprios dados; não há sincronização ou recuperação remota. Para oferecer isso, substitua a implementação de `storage` por um backend autenticado.
 
 ## Publicar na Vercel
