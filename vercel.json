@@ -1,0 +1,1 @@
+{"rewrites":[{"source":"/((?!assets/|images/|icons/|fonts/|sw.js|workbox-|manifest.webmanifest|logo.svg).*)","destination":"/index.html"}]}

@@ -1,0 +1,4 @@
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import { VitePWA } from 'vite-plugin-pwa';
+export default defineConfig({server:{allowedHosts:["terminal.local"]},plugins:[react(),VitePWA({registerType:'autoUpdate',includeAssets:['brand/*.webp','icons/*.png','images/*.webp','fonts/*.{woff2,ttf}'],manifest:{name:'TIME TO FLOURISH',short_name:'TIME TO FLOURISH',description:'Your seven-day sacred space',start_url:'/',scope:'/',display:'standalone',theme_color:'#0a0805',background_color:'#0a0805',icons:[{src:'/icons/icon-192.png',sizes:'192x192',type:'image/png'},{src:'/icons/icon-512.png',sizes:'512x512',type:'image/png'},{src:'/icons/maskable-512.png',sizes:'512x512',type:'image/png',purpose:'maskable'}]},workbox:{globPatterns:['**/*.{js,css,html,ico,png,svg,webp,woff2,ttf}'],maximumFileSizeToCacheInBytes:5000000,navigateFallback:'/index.html',cleanupOutdatedCaches:true}})]});
