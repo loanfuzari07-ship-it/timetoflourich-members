@@ -84,7 +84,7 @@ A dark atmospheric sky with layered almost-black warm clouds, a restrained centr
 A soft radiant burst of golden celestial light breaking through dark clouds, delicate shimmering particles, warm luminous center, cinematic elegant sacred celebration, restrained and tasteful.
 
 
-## Atualização da marca TIME TO FLOURISH
+## Atualização da marca TIME TO BLOOM
 Logo completo: imagem original fornecida pelo usuário, preservada na entrada e nos ícones do PWA.
 Símbolo do cabeçalho: edição gerada com image_gen para retirar as palavras e o fundo preto, preservando a figura dourada, braços abertos, vestes e raios.
-Prompt: Edit the attached logo to create only its pictorial symbol as a transparent PNG asset for an app header. Preserve the exact illustrated golden God the Father figure, the same face, open arms, red and gold robes and radial gold rays. Remove all of the typography TIME TO FLOURISH, and remove the black background to true transparency. Keep the complete figure and all rays intact, clean edges, no added shapes, no words anywhere. Crop closely with modest padding.
+Prompt: Edit the attached logo to create only its pictorial symbol as a transparent PNG asset for an app header. Preserve the exact illustrated golden God the Father figure, the same face, open arms, red and gold robes and radial gold rays. Remove all of the typography TIME TO BLOOM, and remove the black background to true transparency. Keep the complete figure and all rays intact, clean edges, no added shapes, no words anywhere. Crop closely with modest padding.

@@ -1,4 +1,4 @@
-# TIME TO FLOURISH
+# TIME TO BLOOM
 
 Área de membros em inglês, React + Vite + TypeScript, com PWA e conteúdo integral dos sete dias fornecido no briefing.
 
@@ -33,7 +33,7 @@ O resultado de produção fica em `dist/`.
 | Logo | `public/brand/`; o logo completo é usado na entrada e nos ícones de `public/icons/` |
 | Imagens | `public/images/` — 25 artes em WebP; identidade visual em `public/brand/` |
 
-Nome do app: TIME TO FLOURISH. O logo completo fornecido é usado no centro da entrada e em todos os ícones do PWA. A versão sem texto acompanha o nome no cabeçalho. O botão Send email abre o aplicativo de e-mail para lanovdigital@gmail.com. O botão de PDF fica desativado enquanto seu link for `#`.
+Nome do app: TIME TO BLOOM. O logo completo fornecido é usado no centro da entrada e em todos os ícones do PWA. A versão sem texto acompanha o nome no cabeçalho. O botão Send email abre o aplicativo de e-mail para lanovdigital@gmail.com. O botão de PDF fica desativado enquanto seu link for `#`.
 
 O login é simbólico e aceita um nome e qualquer e-mail válido, conforme o briefing. Antes de restringir acesso a compradores, integre `verifyPurchase` a uma API que faça a validação no servidor. Nunca coloque chaves de pagamento no frontend. Uma aplicação estática não protege o conteúdo baixado, o temporizador nem um link público de PDF.
 
@@ -69,4 +69,4 @@ O PDF de um endereço externo depende desse endereço e não está incluído no 
 - `public/`: imagens, logo, ícones, fontes e fallback da Netlify.
 - `dist/`: build pronto para hospedagem estática, incluído no ZIP.
 
-O projeto inclui 25 imagens distintas geradas por IA e a identidade visual TIME TO FLOURISH fornecida pelo cliente. Os textos das sete leituras foram preservados integralmente; apenas a apresentação Markdown foi convertida em componentes visuais.
+O projeto inclui 25 imagens distintas geradas por IA e a identidade visual TIME TO BLOOM fornecida pelo cliente. Os textos das sete leituras foram preservados integralmente; apenas a apresentação Markdown foi convertida em componentes visuais.
